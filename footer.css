@@ -1,0 +1,135 @@
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #333333;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.icon-item i {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+  color: #8B96A5;
+}
+.site-footer {
+  background-color: #ffffff;
+  padding: 2rem 3rem;
+  border-top: 1px solid #ccc;
+  font-family: sans-serif;
+  
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-logo-section {
+  flex: 1 1 250px;
+}
+
+.footer-logo-section .logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#logoimg-footer {
+  width: 40px;
+  height: auto;
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+#Brand-footer {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #8CB7F5;
+}
+
+.company-description {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+width : 40%;
+margin-left: 70px;
+}
+.social-icons{
+   width : 60%;
+margin-left: 70px; 
+}
+.social-icons a {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: #555;
+  transition: color 0.3s;
+  
+}
+
+.social-icons a:hover {
+  color: #007BFF;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-between;
+  gap: 5rem;
+  flex: 350px;
+
+}
+
+.footer-links h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 0.4rem;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.footer-links ul li a:hover {
+  color: #007BFF;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #777;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+.app-badges {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.app-badges img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s;
+
+}
+
+.app-badges a:hover img {
+  transform: scale(1.05);
+}
+
